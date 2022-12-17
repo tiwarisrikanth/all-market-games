@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/device_info-2.0.3/android" />
+            <option value="$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/esys_flutter_share-1.0.2/android" />
+            <option value="$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/file_picker-2.1.7/android" />
+            <option value="$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/flutter_downloader-1.7.4/android" />
+            <option value="$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-1.0.11/android" />
+            <option value="$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/flutter_statusbarcolor-0.2.3/android" />
+            <option value="$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/fluttertoast-8.0.9/android" />
+            <option value="$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/image_picker-0.6.6+5/android" />
+            <option value="$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/open_file-3.2.1/android" />
+            <option value="$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/package_info-2.0.2/android" />
+            <option value="$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/path_provider-1.6.28/android" />
+            <option value="$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/rate_my_app-0.7.2/android" />
+            <option value="$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/shared_preferences-0.5.12+4/android" />
+            <option value="$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/sqflite-2.0.2+1/android" />
+            <option value="$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/store_redirect-2.0.1/android" />
+            <option value="$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/upi_india-3.0.1/android" />
+            <option value="$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/upi_pay-1.0.1/android" />
+            <option value="$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/url_launcher-6.0.5/android" />
+            <option value="$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/video_player_android-2.3.4/android" />
+            <option value="$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/wakelock-0.6.2/android" />
+            <option value="$USER_HOME$/AppData/Local/Pub/Cache/hosted/pub.dartlang.org/webview_flutter-2.0.14/android" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

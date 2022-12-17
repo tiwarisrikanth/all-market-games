@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/srikanth/Desktop/matka/build/flutter_downloader/intermediates/res/merged/release/drawable/notification_icon_background.xml",
+        "source": "/Users/srikanth/.gradle/caches/transforms-3/6b8335031d0acbab0174f3b0347bbb02/transformed/core-1.9.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/srikanth/Desktop/matka/build/flutter_downloader/intermediates/res/merged/release/drawable/notification_bg_low.xml",
+        "source": "/Users/srikanth/.gradle/caches/transforms-3/6b8335031d0acbab0174f3b0347bbb02/transformed/core-1.9.0/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/srikanth/Desktop/matka/build/flutter_downloader/intermediates/res/merged/release/drawable/notification_bg.xml",
+        "source": "/Users/srikanth/.gradle/caches/transforms-3/6b8335031d0acbab0174f3b0347bbb02/transformed/core-1.9.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/srikanth/Desktop/matka/build/flutter_downloader/intermediates/res/merged/release/drawable/notification_tile_bg.xml",
+        "source": "/Users/srikanth/.gradle/caches/transforms-3/6b8335031d0acbab0174f3b0347bbb02/transformed/core-1.9.0/res/drawable/notification_tile_bg.xml"
+    }
+]

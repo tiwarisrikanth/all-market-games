@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/srikanth/Desktop/matka/build/flutter_downloader/intermediates/res/merged/release/animator/fragment_open_enter.xml",
+        "source": "/Users/srikanth/.gradle/caches/transforms-3/7db3de6ff44c282ac6f0e18ba57006ac/transformed/fragment-1.5.2/res/animator/fragment_open_enter.xml"
+    },
+    {
+        "merged": "/Users/srikanth/Desktop/matka/build/flutter_downloader/intermediates/res/merged/release/animator/fragment_close_enter.xml",
+        "source": "/Users/srikanth/.gradle/caches/transforms-3/7db3de6ff44c282ac6f0e18ba57006ac/transformed/fragment-1.5.2/res/animator/fragment_close_enter.xml"
+    },
+    {
+        "merged": "/Users/srikanth/Desktop/matka/build/flutter_downloader/intermediates/res/merged/release/animator/fragment_fade_enter.xml",
+        "source": "/Users/srikanth/.gradle/caches/transforms-3/7db3de6ff44c282ac6f0e18ba57006ac/transformed/fragment-1.5.2/res/animator/fragment_fade_enter.xml"
+    },
+    {
+        "merged": "/Users/srikanth/Desktop/matka/build/flutter_downloader/intermediates/res/merged/release/animator/fragment_close_exit.xml",
+        "source": "/Users/srikanth/.gradle/caches/transforms-3/7db3de6ff44c282ac6f0e18ba57006ac/transformed/fragment-1.5.2/res/animator/fragment_close_exit.xml"
+    },
+    {
+        "merged": "/Users/srikanth/Desktop/matka/build/flutter_downloader/intermediates/res/merged/release/animator/fragment_fade_exit.xml",
+        "source": "/Users/srikanth/.gradle/caches/transforms-3/7db3de6ff44c282ac6f0e18ba57006ac/transformed/fragment-1.5.2/res/animator/fragment_fade_exit.xml"
+    },
+    {
+        "merged": "/Users/srikanth/Desktop/matka/build/flutter_downloader/intermediates/res/merged/release/animator/fragment_open_exit.xml",
+        "source": "/Users/srikanth/.gradle/caches/transforms-3/7db3de6ff44c282ac6f0e18ba57006ac/transformed/fragment-1.5.2/res/animator/fragment_open_exit.xml"
+    }
+]

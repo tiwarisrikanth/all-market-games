@@ -1,0 +1,34 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/srikanth/Desktop/matka/build/package_info/intermediates/incremental/mergeReleaseResources/merged.dir/values-ja/values-ja.xml",
+            "map": [
+                {
+                    "source": "/Users/srikanth/.gradle/caches/transforms-3/624033516067fe2a9892e67aa0a4411c/transformed/core-1.6.0/res/values-ja/values-ja.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/srikanth/Desktop/matka/build/package_info/intermediates/res/merged/release/values-ja/values-ja.xml",
+            "map": [
+                {
+                    "source": "/Users/srikanth/.gradle/caches/transforms-3/624033516067fe2a9892e67aa0a4411c/transformed/core-1.6.0/res/values-ja/values-ja.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/srikanth/Desktop/matka/build/flutter_downloader/intermediates/res/merged/release/layout/notification_action_tombstone.xml",
+        "source": "/Users/srikanth/.gradle/caches/transforms-3/6b8335031d0acbab0174f3b0347bbb02/transformed/core-1.9.0/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/srikanth/Desktop/matka/build/flutter_downloader/intermediates/res/merged/release/layout/notification_template_icon_group.xml",
+        "source": "/Users/srikanth/.gradle/caches/transforms-3/6b8335031d0acbab0174f3b0347bbb02/transformed/core-1.9.0/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/srikanth/Desktop/matka/build/flutter_downloader/intermediates/res/merged/release/layout/notification_template_part_time.xml",
+        "source": "/Users/srikanth/.gradle/caches/transforms-3/6b8335031d0acbab0174f3b0347bbb02/transformed/core-1.9.0/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/Users/srikanth/Desktop/matka/build/flutter_downloader/intermediates/res/merged/release/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/srikanth/.gradle/caches/transforms-3/6b8335031d0acbab0174f3b0347bbb02/transformed/core-1.9.0/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/Users/srikanth/Desktop/matka/build/flutter_downloader/intermediates/res/merged/release/layout/custom_dialog.xml",
+        "source": "/Users/srikanth/.gradle/caches/transforms-3/6b8335031d0acbab0174f3b0347bbb02/transformed/core-1.9.0/res/layout/custom_dialog.xml"
+    },
+    {
+        "merged": "/Users/srikanth/Desktop/matka/build/flutter_downloader/intermediates/res/merged/release/layout/notification_action.xml",
+        "source": "/Users/srikanth/.gradle/caches/transforms-3/6b8335031d0acbab0174f3b0347bbb02/transformed/core-1.9.0/res/layout/notification_action.xml"
+    }
+]

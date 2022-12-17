@@ -1,0 +1,600 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.pkGames.matka"
+4    android:versionCode="2"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/srikanth/Desktop/matka/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->/Users/srikanth/Desktop/matka/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/srikanth/Desktop/matka/android/app/src/main/AndroidManifest.xml:7:5-67
+11-->/Users/srikanth/Desktop/matka/android/app/src/main/AndroidManifest.xml:7:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->[:image_picker] /Users/srikanth/Desktop/matka/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:7:5-80
+12-->[:image_picker] /Users/srikanth/Desktop/matka/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:7:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->[:image_picker] /Users/srikanth/Desktop/matka/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:8:5-81
+13-->[:image_picker] /Users/srikanth/Desktop/matka/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:8:22-78
+14
+15    <queries>
+15-->[:file_picker] /Users/srikanth/Desktop/matka/build/file_picker/intermediates/library_manifest/release/AndroidManifest.xml:9:5-15:15
+16        <intent>
+16-->[:file_picker] /Users/srikanth/Desktop/matka/build/file_picker/intermediates/library_manifest/release/AndroidManifest.xml:10:9-14:18
+17            <action android:name="android.intent.action.GET_CONTENT" />
+17-->[:file_picker] /Users/srikanth/Desktop/matka/build/file_picker/intermediates/library_manifest/release/AndroidManifest.xml:11:13-72
+17-->[:file_picker] /Users/srikanth/Desktop/matka/build/file_picker/intermediates/library_manifest/release/AndroidManifest.xml:11:21-69
+18
+19            <data android:mimeType="*/*" />
+19-->[:file_picker] /Users/srikanth/Desktop/matka/build/file_picker/intermediates/library_manifest/release/AndroidManifest.xml:13:13-44
+19-->[:file_picker] /Users/srikanth/Desktop/matka/build/file_picker/intermediates/library_manifest/release/AndroidManifest.xml:13:19-41
+20        </intent>
+21        <intent>
+21-->[:flutter_downloader] /Users/srikanth/Desktop/matka/build/flutter_downloader/intermediates/library_manifest/release/AndroidManifest.xml:9:9-11:18
+22            <action android:name="android.intent.action.VIEW" />
+22-->[:flutter_downloader] /Users/srikanth/Desktop/matka/build/flutter_downloader/intermediates/library_manifest/release/AndroidManifest.xml:10:13-65
+22-->[:flutter_downloader] /Users/srikanth/Desktop/matka/build/flutter_downloader/intermediates/library_manifest/release/AndroidManifest.xml:10:21-62
+23        </intent>
+24        <intent>
+24-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:8:9-12:18
+25            <action android:name="android.intent.action.VIEW" />
+25-->[:flutter_downloader] /Users/srikanth/Desktop/matka/build/flutter_downloader/intermediates/library_manifest/release/AndroidManifest.xml:10:13-65
+25-->[:flutter_downloader] /Users/srikanth/Desktop/matka/build/flutter_downloader/intermediates/library_manifest/release/AndroidManifest.xml:10:21-62
+26
+27            <data android:scheme="upi" />
+27-->[:file_picker] /Users/srikanth/Desktop/matka/build/file_picker/intermediates/library_manifest/release/AndroidManifest.xml:13:13-44
+28        </intent>
+29
+30        <package android:name="com.lcode.allahabadupi" />
+30-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:15:9-58
+30-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:15:18-55
+31        <package android:name="in.amazon.mShop.android.shopping" />
+31-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:16:9-68
+31-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:16:18-65
+32        <package android:name="com.upi.axispay" />
+32-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:17:9-51
+32-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:17:18-48
+33        <package android:name="com.bankofbaroda.upi" />
+33-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:18:9-56
+33-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:18:18-53
+34        <package android:name="in.org.npci.upiapp" />
+34-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:19:9-54
+34-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:19:18-51
+35        <package android:name="com.infra.boiupi" />
+35-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:20:9-52
+35-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:20:18-49
+36        <package android:name="com.infrasofttech.centralbankupi" />
+36-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:21:9-68
+36-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:21:18-65
+37        <package android:name="in.cointab.app" />
+37-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:22:9-50
+37-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:22:18-47
+38        <package android:name="com.lcode.corpupi" />
+38-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:23:9-53
+38-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:23:18-50
+39        <package android:name="com.lcode.csbupi" />
+39-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:24:9-52
+39-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:24:18-49
+40        <package android:name="com.cub.wallet.gui" />
+40-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:25:9-54
+40-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:25:18-51
+41        <package android:name="com.dbs.in.digitalbank" />
+41-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:26:9-58
+41-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:26:18-55
+42        <package android:name="com.olive.dcb.upi" />
+42-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:27:9-53
+42-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:27:18-50
+43        <package android:name="com.equitasbank.upi" />
+43-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:28:9-55
+43-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:28:18-52
+44        <package android:name="com.finopaytech.bpayfino" />
+44-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:29:9-60
+44-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:29:18-57
+45        <package android:name="com.freecharge.android" />
+45-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:30:9-58
+45-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:30:18-55
+46        <package android:name="com.google.android.apps.nbu.paisa.user" />
+46-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:31:9-74
+46-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:31:18-71
+47        <package android:name="com.mgs.hsbcupi" />
+47-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:32:9-51
+47-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:32:18-48
+48        <package android:name="com.csam.icici.bank.imobile" />
+48-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:33:9-63
+48-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:33:18-60
+49        <package android:name="com.mgs.induspsp" />
+49-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:34:9-52
+49-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:34:18-49
+50        <package android:name="com.lcode.smartz" />
+50-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:35:9-52
+50-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:35:18-49
+51        <package android:name="com.khaalijeb.inkdrops" />
+51-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:36:9-58
+51-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:36:18-55
+52        <package android:name="com.msf.kbank.mobile" />
+52-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:37:9-56
+52-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:37:18-53
+53        <package android:name="com.infrasofttech.mahaupi" />
+53-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:38:9-61
+53-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:38:18-58
+54        <package android:name="com.mipay.in.wallet" />
+54-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:39:9-55
+54-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:39:18-52
+55        <package android:name="com.mipay.wallet.in" />
+55-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:40:9-55
+55-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:40:18-52
+56        <package android:name="com.mobikwik_new" />
+56-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:41:9-52
+56-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:41:18-49
+57        <package android:name="com.mgs.obcbank" />
+57-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:42:9-51
+57-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:42:18-48
+58        <package android:name="net.one97.paytm" />
+58-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:43:9-51
+58-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:43:18-48
+59        <package android:name="com.idbibank.paywiz" />
+59-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:44:9-55
+59-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:44:18-52
+60        <package android:name="com.enstage.wibmo.hdfc" />
+60-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:45:9-58
+60-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:45:18-55
+61        <package android:name="com.phonepe.app" />
+61-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:46:9-51
+61-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:46:18-48
+62        <package android:name="com.fss.pnbpsp" />
+62-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:47:9-50
+62-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:47:18-47
+63        <package android:name="com.mobileware.upipsb" />
+63-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:48:9-57
+63-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:48:18-54
+64        <package android:name="com.rblbank.upi" />
+64-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:49:9-51
+64-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:49:18-48
+65        <package android:name="com.realmepay.payments" />
+65-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:50:9-58
+65-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:50:18-55
+66        <package android:name="com.sbi.upi" />
+66-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:51:9-47
+66-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:51:18-44
+67        <package android:name="com.truecaller" />
+67-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:52:9-50
+67-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:52:18-47
+68        <package android:name="com.fss.unbipsp" />
+68-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:53:9-51
+68-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:53:18-48
+69        <package android:name="com.fss.vijayapsp" />
+69-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:54:9-53
+69-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:54:18-50
+70        <package android:name="com.YesBank" /> <!-- Chooser Intent for UPI apps -->
+70-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:55:9-47
+70-->[:upi_india] /Users/srikanth/Desktop/matka/build/upi_india/intermediates/library_manifest/release/AndroidManifest.xml:55:18-44
+71        <intent>
+71-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] /Users/srikanth/.gradle/caches/transforms-3/9ea49375a4c6609edf44ce894ff9d426/transformed/jetified-EasyUpiPayment-3.0.3/AndroidManifest.xml:19:9-23:18
+72            <action android:name="android.intent.action.CHOOSER" />
+72-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] /Users/srikanth/.gradle/caches/transforms-3/9ea49375a4c6609edf44ce894ff9d426/transformed/jetified-EasyUpiPayment-3.0.3/AndroidManifest.xml:20:13-68
+72-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] /Users/srikanth/.gradle/caches/transforms-3/9ea49375a4c6609edf44ce894ff9d426/transformed/jetified-EasyUpiPayment-3.0.3/AndroidManifest.xml:20:21-65
+73
+74            <data android:scheme="upi" />
+74-->[:file_picker] /Users/srikanth/Desktop/matka/build/file_picker/intermediates/library_manifest/release/AndroidManifest.xml:13:13-44
+75        </intent>
+76    </queries>
+77
+78    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+78-->[:flutter_downloader] /Users/srikanth/Desktop/matka/build/flutter_downloader/intermediates/library_manifest/release/AndroidManifest.xml:14:5-77
+78-->[:flutter_downloader] /Users/srikanth/Desktop/matka/build/flutter_downloader/intermediates/library_manifest/release/AndroidManifest.xml:14:22-74
+79    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+79-->[:open_file] /Users/srikanth/Desktop/matka/build/open_file/intermediates/library_manifest/release/AndroidManifest.xml:8:5-83
+79-->[:open_file] /Users/srikanth/Desktop/matka/build/open_file/intermediates/library_manifest/release/AndroidManifest.xml:8:22-80
+80    <uses-permission android:name="android.permission.WAKE_LOCK" />
+80-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:5-68
+80-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:22-65
+81    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+81-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:26:5-79
+81-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:26:22-76
+82    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+82-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:5-81
+82-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:22-78
+83    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+83-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:5-77
+83-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:28:22-74
+84
+85    <permission
+85-->[androidx.core:core:1.9.0] /Users/srikanth/.gradle/caches/transforms-3/6b8335031d0acbab0174f3b0347bbb02/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+86        android:name="com.pkGames.matka.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+86-->[androidx.core:core:1.9.0] /Users/srikanth/.gradle/caches/transforms-3/6b8335031d0acbab0174f3b0347bbb02/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+87        android:protectionLevel="signature" />
+87-->[androidx.core:core:1.9.0] /Users/srikanth/.gradle/caches/transforms-3/6b8335031d0acbab0174f3b0347bbb02/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+88
+89    <uses-permission android:name="com.pkGames.matka.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+89-->[androidx.core:core:1.9.0] /Users/srikanth/.gradle/caches/transforms-3/6b8335031d0acbab0174f3b0347bbb02/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+89-->[androidx.core:core:1.9.0] /Users/srikanth/.gradle/caches/transforms-3/6b8335031d0acbab0174f3b0347bbb02/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+90
+91    <application
+92        android:name="android.app.Application"
+92-->/Users/srikanth/Desktop/matka/android/app/src/main/AndroidManifest.xml:12:9-42
+93        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+93-->[androidx.core:core:1.9.0] /Users/srikanth/.gradle/caches/transforms-3/6b8335031d0acbab0174f3b0347bbb02/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+94        android:icon="@mipmap/ic_launcher"
+94-->/Users/srikanth/Desktop/matka/android/app/src/main/AndroidManifest.xml:13:9-43
+95        android:label="All Markets Game"
+95-->/Users/srikanth/Desktop/matka/android/app/src/main/AndroidManifest.xml:9:9-41
+96        android:largeHeap="true"
+96-->/Users/srikanth/Desktop/matka/android/app/src/main/AndroidManifest.xml:10:9-33
+97        android:usesCleartextTraffic="true" >
+97-->/Users/srikanth/Desktop/matka/android/app/src/main/AndroidManifest.xml:11:9-44
+98        <activity
+98-->/Users/srikanth/Desktop/matka/android/app/src/main/AndroidManifest.xml:15:9-35:20
+99            android:name="com.pkGames.matka.MainActivity"
+99-->/Users/srikanth/Desktop/matka/android/app/src/main/AndroidManifest.xml:16:13-41
+100            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+100-->/Users/srikanth/Desktop/matka/android/app/src/main/AndroidManifest.xml:20:13-163
+101            android:exported="true"
+101-->/Users/srikanth/Desktop/matka/android/app/src/main/AndroidManifest.xml:17:13-36
+102            android:hardwareAccelerated="true"
+102-->/Users/srikanth/Desktop/matka/android/app/src/main/AndroidManifest.xml:21:13-47
+103            android:launchMode="singleTop"
+103-->/Users/srikanth/Desktop/matka/android/app/src/main/AndroidManifest.xml:18:13-43
+104            android:theme="@style/LaunchTheme"
+104-->/Users/srikanth/Desktop/matka/android/app/src/main/AndroidManifest.xml:19:13-47
+105            android:windowSoftInputMode="adjustResize" >
+105-->/Users/srikanth/Desktop/matka/android/app/src/main/AndroidManifest.xml:22:13-55
+106
+107            <!--
+108                 Specifies an Android theme to apply to this Activity as soon as
+109                 the Android process has started. This theme is visible to the user
+110                 while the Flutter UI initializes. After that, this theme continues
+111                 to determine the Window background behind the Flutter UI.
+112            -->
+113            <meta-data
+113-->/Users/srikanth/Desktop/matka/android/app/src/main/AndroidManifest.xml:27:13-30:17
+114                android:name="io.flutter.embedding.android.NormalTheme"
+114-->/Users/srikanth/Desktop/matka/android/app/src/main/AndroidManifest.xml:28:15-70
+115                android:resource="@style/NormalTheme" />
+115-->/Users/srikanth/Desktop/matka/android/app/src/main/AndroidManifest.xml:29:15-52
+116
+117            <intent-filter>
+117-->/Users/srikanth/Desktop/matka/android/app/src/main/AndroidManifest.xml:31:13-34:29
+118                <action android:name="android.intent.action.MAIN" />
+118-->/Users/srikanth/Desktop/matka/android/app/src/main/AndroidManifest.xml:32:17-68
+118-->/Users/srikanth/Desktop/matka/android/app/src/main/AndroidManifest.xml:32:25-66
+119
+120                <category android:name="android.intent.category.LAUNCHER" />
+120-->/Users/srikanth/Desktop/matka/android/app/src/main/AndroidManifest.xml:33:17-76
+120-->/Users/srikanth/Desktop/matka/android/app/src/main/AndroidManifest.xml:33:27-74
+121            </intent-filter>
+122        </activity>
+123        <!--
+124             Don't delete the meta-data below.
+125             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+126        -->
+127        <meta-data
+127-->/Users/srikanth/Desktop/matka/android/app/src/main/AndroidManifest.xml:38:9-40:33
+128            android:name="flutterEmbedding"
+128-->/Users/srikanth/Desktop/matka/android/app/src/main/AndroidManifest.xml:39:13-44
+129            android:value="2" />
+129-->/Users/srikanth/Desktop/matka/android/app/src/main/AndroidManifest.xml:40:13-30
+130
+131        <provider
+131-->[:image_picker] /Users/srikanth/Desktop/matka/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:11:9-19:20
+132            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+132-->[:image_picker] /Users/srikanth/Desktop/matka/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:12:13-82
+133            android:authorities="com.pkGames.matka.flutter.image_provider"
+133-->[:image_picker] /Users/srikanth/Desktop/matka/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:13:13-74
+134            android:exported="false"
+134-->[:image_picker] /Users/srikanth/Desktop/matka/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:14:13-37
+135            android:grantUriPermissions="true" >
+135-->[:image_picker] /Users/srikanth/Desktop/matka/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:15:13-47
+136            <meta-data
+136-->[:image_picker] /Users/srikanth/Desktop/matka/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:16:13-18:75
+137                android:name="android.support.FILE_PROVIDER_PATHS"
+137-->[:image_picker] /Users/srikanth/Desktop/matka/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:17:17-67
+138                android:resource="@xml/flutter_image_picker_file_paths" />
+138-->[:image_picker] /Users/srikanth/Desktop/matka/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:18:17-72
+139        </provider>
+140        <provider
+140-->[:esys_flutter_share] /Users/srikanth/Desktop/matka/build/esys_flutter_share/intermediates/library_manifest/release/AndroidManifest.xml:8:9-16:20
+141            android:name="de.esys.esysfluttershare.EsysFlutterShareFileProvider"
+141-->[:esys_flutter_share] /Users/srikanth/Desktop/matka/build/esys_flutter_share/intermediates/library_manifest/release/AndroidManifest.xml:9:13-81
+142            android:authorities="com.pkGames.matka.fileprovider.github.com/orgs/esysberlin/esys-flutter-share"
+142-->[:esys_flutter_share] /Users/srikanth/Desktop/matka/build/esys_flutter_share/intermediates/library_manifest/release/AndroidManifest.xml:10:13-110
+143            android:exported="false"
+143-->[:esys_flutter_share] /Users/srikanth/Desktop/matka/build/esys_flutter_share/intermediates/library_manifest/release/AndroidManifest.xml:11:13-37
+144            android:grantUriPermissions="true" >
+144-->[:esys_flutter_share] /Users/srikanth/Desktop/matka/build/esys_flutter_share/intermediates/library_manifest/release/AndroidManifest.xml:12:13-47
+145            <meta-data
+145-->[:image_picker] /Users/srikanth/Desktop/matka/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:16:13-18:75
+146                android:name="android.support.FILE_PROVIDER_PATHS"
+146-->[:image_picker] /Users/srikanth/Desktop/matka/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:17:17-67
+147                android:resource="@xml/esys_flutter_share_filepaths" />
+147-->[:image_picker] /Users/srikanth/Desktop/matka/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:18:17-72
+148        </provider>
+149        <provider
+149-->[:open_file] /Users/srikanth/Desktop/matka/build/open_file/intermediates/library_manifest/release/AndroidManifest.xml:12:9-21:20
+150            android:name="com.crazecoder.openfile.FileProvider"
+150-->[:open_file] /Users/srikanth/Desktop/matka/build/open_file/intermediates/library_manifest/release/AndroidManifest.xml:13:13-64
+151            android:authorities="com.pkGames.matka.fileProvider.com.crazecoder.openfile"
+151-->[:open_file] /Users/srikanth/Desktop/matka/build/open_file/intermediates/library_manifest/release/AndroidManifest.xml:14:13-88
+152            android:exported="false"
+152-->[:open_file] /Users/srikanth/Desktop/matka/build/open_file/intermediates/library_manifest/release/AndroidManifest.xml:15:13-37
+153            android:grantUriPermissions="true" >
+153-->[:open_file] /Users/srikanth/Desktop/matka/build/open_file/intermediates/library_manifest/release/AndroidManifest.xml:16:13-47
+154            <meta-data
+154-->[:image_picker] /Users/srikanth/Desktop/matka/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:16:13-18:75
+155                android:name="android.support.FILE_PROVIDER_PATHS"
+155-->[:image_picker] /Users/srikanth/Desktop/matka/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:17:17-67
+156                android:resource="@xml/filepaths" />
+156-->[:image_picker] /Users/srikanth/Desktop/matka/build/image_picker/intermediates/library_manifest/release/AndroidManifest.xml:18:17-72
+157        </provider>
+158
+159        <activity
+159-->[:url_launcher] /Users/srikanth/Desktop/matka/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:8:9-11:74
+160            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+160-->[:url_launcher] /Users/srikanth/Desktop/matka/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:9:13-74
+161            android:exported="false"
+161-->[:url_launcher] /Users/srikanth/Desktop/matka/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:10:13-37
+162            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+162-->[:url_launcher] /Users/srikanth/Desktop/matka/build/url_launcher/intermediates/library_manifest/release/AndroidManifest.xml:11:13-71
+163        <activity
+163-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] /Users/srikanth/.gradle/caches/transforms-3/9ea49375a4c6609edf44ce894ff9d426/transformed/jetified-EasyUpiPayment-3.0.3/AndroidManifest.xml:34:9-36:75
+164            android:name="dev.shreyaspatil.easyupipayment.ui.PaymentUiActivity"
+164-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] /Users/srikanth/.gradle/caches/transforms-3/9ea49375a4c6609edf44ce894ff9d426/transformed/jetified-EasyUpiPayment-3.0.3/AndroidManifest.xml:35:13-80
+165            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar" />
+165-->[dev.shreyaspatil.EasyUpiPayment:EasyUpiPayment:3.0.3] /Users/srikanth/.gradle/caches/transforms-3/9ea49375a4c6609edf44ce894ff9d426/transformed/jetified-EasyUpiPayment-3.0.3/AndroidManifest.xml:36:13-72
+166
+167        <uses-library
+167-->[androidx.window:window:1.0.0-beta04] /Users/srikanth/.gradle/caches/transforms-3/a7c83ea4b93d4a1da841400d26eec8f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+168            android:name="androidx.window.extensions"
+168-->[androidx.window:window:1.0.0-beta04] /Users/srikanth/.gradle/caches/transforms-3/a7c83ea4b93d4a1da841400d26eec8f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+169            android:required="false" />
+169-->[androidx.window:window:1.0.0-beta04] /Users/srikanth/.gradle/caches/transforms-3/a7c83ea4b93d4a1da841400d26eec8f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+170        <uses-library
+170-->[androidx.window:window:1.0.0-beta04] /Users/srikanth/.gradle/caches/transforms-3/a7c83ea4b93d4a1da841400d26eec8f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+171            android:name="androidx.window.sidecar"
+171-->[androidx.window:window:1.0.0-beta04] /Users/srikanth/.gradle/caches/transforms-3/a7c83ea4b93d4a1da841400d26eec8f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+172            android:required="false" />
+172-->[androidx.window:window:1.0.0-beta04] /Users/srikanth/.gradle/caches/transforms-3/a7c83ea4b93d4a1da841400d26eec8f7/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+173
+174        <provider
+174-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:31:9-39:20
+175            android:name="androidx.startup.InitializationProvider"
+175-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:32:13-67
+176            android:authorities="com.pkGames.matka.androidx-startup"
+176-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:33:13-68
+177            android:exported="false" >
+177-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:34:13-37
+178            <meta-data
+178-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+179                android:name="androidx.work.WorkManagerInitializer"
+179-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+180                android:value="androidx.startup" />
+180-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+181        </provider>
+182
+183        <service
+183-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+184            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+184-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+185            android:directBootAware="false"
+185-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+186            android:enabled="@bool/enable_system_alarm_service_default"
+186-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+187            android:exported="false" />
+187-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+188        <service
+188-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+189            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+189-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+190            android:directBootAware="false"
+190-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+191            android:enabled="@bool/enable_system_job_service_default"
+191-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+192            android:exported="true"
+192-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+193            android:permission="android.permission.BIND_JOB_SERVICE" />
+193-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+194        <service
+194-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+195            android:name="androidx.work.impl.foreground.SystemForegroundService"
+195-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+196            android:directBootAware="false"
+196-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+197            android:enabled="@bool/enable_system_foreground_service_default"
+197-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+198            android:exported="false" />
+198-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+199
+200        <receiver
+200-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+201            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+201-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+202            android:directBootAware="false"
+202-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+203            android:enabled="true"
+203-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+204            android:exported="false" />
+204-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+205        <receiver
+205-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+206            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+206-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+207            android:directBootAware="false"
+207-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+208            android:enabled="false"
+208-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+209            android:exported="false" >
+209-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+210            <intent-filter>
+210-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+211                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+211-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+211-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+212                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+212-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+212-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+213            </intent-filter>
+214        </receiver>
+215        <receiver
+215-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+216            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+216-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+217            android:directBootAware="false"
+217-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+218            android:enabled="false"
+218-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+219            android:exported="false" >
+219-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+220            <intent-filter>
+220-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+221                <action android:name="android.intent.action.BATTERY_OKAY" />
+221-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+221-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+222                <action android:name="android.intent.action.BATTERY_LOW" />
+222-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+222-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+223            </intent-filter>
+224        </receiver>
+225        <receiver
+225-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+226            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+226-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+227            android:directBootAware="false"
+227-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+228            android:enabled="false"
+228-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+229            android:exported="false" >
+229-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+230            <intent-filter>
+230-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+231                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+231-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+231-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+232                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+232-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+232-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+233            </intent-filter>
+234        </receiver>
+235        <receiver
+235-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+236            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+236-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+237            android:directBootAware="false"
+237-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+238            android:enabled="false"
+238-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+239            android:exported="false" >
+239-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+240            <intent-filter>
+240-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+241                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+241-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+241-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+242            </intent-filter>
+243        </receiver>
+244        <receiver
+244-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+245            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+245-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+246            android:directBootAware="false"
+246-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+247            android:enabled="false"
+247-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+248            android:exported="false" >
+248-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+249            <intent-filter>
+249-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+250                <action android:name="android.intent.action.BOOT_COMPLETED" />
+250-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:117:17-79
+250-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:117:25-76
+251                <action android:name="android.intent.action.TIME_SET" />
+251-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+251-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+252                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+252-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+252-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+253            </intent-filter>
+254        </receiver>
+255        <receiver
+255-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+256            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+256-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+257            android:directBootAware="false"
+257-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+258            android:enabled="@bool/enable_system_alarm_service_default"
+258-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+259            android:exported="false" >
+259-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+260            <intent-filter>
+260-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+261                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+261-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+261-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+262            </intent-filter>
+263        </receiver>
+264        <receiver
+264-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+265            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+265-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+266            android:directBootAware="false"
+266-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+267            android:enabled="true"
+267-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+268            android:exported="true"
+268-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+269            android:permission="android.permission.DUMP" >
+269-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+270            <intent-filter>
+270-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+271                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+271-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+271-->[androidx.work:work-runtime:2.7.1] /Users/srikanth/.gradle/caches/transforms-3/ab82e0b3f6b57c32ad53ce23698f179f/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+272            </intent-filter>
+273        </receiver>
+274
+275        <service
+275-->[androidx.room:room-runtime:2.2.5] /Users/srikanth/.gradle/caches/transforms-3/15f70ec5cb3401192ee61bcbc0a1b499/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+276            android:name="androidx.room.MultiInstanceInvalidationService"
+276-->[androidx.room:room-runtime:2.2.5] /Users/srikanth/.gradle/caches/transforms-3/15f70ec5cb3401192ee61bcbc0a1b499/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+277            android:directBootAware="true"
+277-->[androidx.room:room-runtime:2.2.5] /Users/srikanth/.gradle/caches/transforms-3/15f70ec5cb3401192ee61bcbc0a1b499/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+278            android:exported="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+278-->[androidx.room:room-runtime:2.2.5] /Users/srikanth/.gradle/caches/transforms-3/15f70ec5cb3401192ee61bcbc0a1b499/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+279        <activity
+279-->[com.google.android.play:core:1.8.0] /Users/srikanth/.gradle/caches/transforms-3/3207cefdb002aac4a7fd1cfb093b2d82/transformed/jetified-core-1.8.0/AndroidManifest.xml:12:5-271
+280            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+280-->[com.google.android.play:core:1.8.0] /Users/srikanth/.gradle/caches/transforms-3/3207cefdb002aac4a7fd1cfb093b2d82/transformed/jetified-core-1.8.0/AndroidManifest.xml:12:15-102
+281            android:enabled="false"
+281-->[com.google.android.play:core:1.8.0] /Users/srikanth/.gradle/caches/transforms-3/3207cefdb002aac4a7fd1cfb093b2d82/transformed/jetified-core-1.8.0/AndroidManifest.xml:12:103-126
+282            android:exported="false"
+282-->[com.google.android.play:core:1.8.0] /Users/srikanth/.gradle/caches/transforms-3/3207cefdb002aac4a7fd1cfb093b2d82/transformed/jetified-core-1.8.0/AndroidManifest.xml:12:127-151
+283            android:launchMode="singleInstance"
+283-->[com.google.android.play:core:1.8.0] /Users/srikanth/.gradle/caches/transforms-3/3207cefdb002aac4a7fd1cfb093b2d82/transformed/jetified-core-1.8.0/AndroidManifest.xml:12:204-239
+284            android:process=":playcore_missing_splits_activity"
+284-->[com.google.android.play:core:1.8.0] /Users/srikanth/.gradle/caches/transforms-3/3207cefdb002aac4a7fd1cfb093b2d82/transformed/jetified-core-1.8.0/AndroidManifest.xml:12:152-203
+285            android:stateNotNeeded="true" />
+285-->[com.google.android.play:core:1.8.0] /Users/srikanth/.gradle/caches/transforms-3/3207cefdb002aac4a7fd1cfb093b2d82/transformed/jetified-core-1.8.0/AndroidManifest.xml:12:240-269
+286        <activity
+286-->[com.google.android.play:core:1.8.0] /Users/srikanth/.gradle/caches/transforms-3/3207cefdb002aac4a7fd1cfb093b2d82/transformed/jetified-core-1.8.0/AndroidManifest.xml:13:5-226
+287            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+287-->[com.google.android.play:core:1.8.0] /Users/srikanth/.gradle/caches/transforms-3/3207cefdb002aac4a7fd1cfb093b2d82/transformed/jetified-core-1.8.0/AndroidManifest.xml:13:15-95
+288            android:enabled="false"
+288-->[com.google.android.play:core:1.8.0] /Users/srikanth/.gradle/caches/transforms-3/3207cefdb002aac4a7fd1cfb093b2d82/transformed/jetified-core-1.8.0/AndroidManifest.xml:13:96-119
+289            android:exported="false"
+289-->[com.google.android.play:core:1.8.0] /Users/srikanth/.gradle/caches/transforms-3/3207cefdb002aac4a7fd1cfb093b2d82/transformed/jetified-core-1.8.0/AndroidManifest.xml:13:120-144
+290            android:stateNotNeeded="true"
+290-->[com.google.android.play:core:1.8.0] /Users/srikanth/.gradle/caches/transforms-3/3207cefdb002aac4a7fd1cfb093b2d82/transformed/jetified-core-1.8.0/AndroidManifest.xml:13:145-174
+291            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The service will be merged into the manifest of the hosting app. -->
+291-->[com.google.android.play:core:1.8.0] /Users/srikanth/.gradle/caches/transforms-3/3207cefdb002aac4a7fd1cfb093b2d82/transformed/jetified-core-1.8.0/AndroidManifest.xml:13:175-224
+292        <service
+292-->[com.google.android.play:core:1.8.0] /Users/srikanth/.gradle/caches/transforms-3/3207cefdb002aac4a7fd1cfb093b2d82/transformed/jetified-core-1.8.0/AndroidManifest.xml:16:5-145
+293            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+293-->[com.google.android.play:core:1.8.0] /Users/srikanth/.gradle/caches/transforms-3/3207cefdb002aac4a7fd1cfb093b2d82/transformed/jetified-core-1.8.0/AndroidManifest.xml:16:14-95
+294            android:enabled="false"
+294-->[com.google.android.play:core:1.8.0] /Users/srikanth/.gradle/caches/transforms-3/3207cefdb002aac4a7fd1cfb093b2d82/transformed/jetified-core-1.8.0/AndroidManifest.xml:16:96-119
+295            android:exported="true" />
+295-->[com.google.android.play:core:1.8.0] /Users/srikanth/.gradle/caches/transforms-3/3207cefdb002aac4a7fd1cfb093b2d82/transformed/jetified-core-1.8.0/AndroidManifest.xml:16:120-143
+296    </application>
+297
+298</manifest>
