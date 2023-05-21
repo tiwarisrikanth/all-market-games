@@ -259,8 +259,8 @@ class CS {
   //Service
   // ignore: non_constant_identifier_names
   //static final String BaseURL = "https://allmarketsgame.live";
-  static final String BaseURL = "https://pkgames.online";
-  // static final String BaseURL = "https://jackpotmatka.live/";
+  // static final String BaseURL = "https://pkgames.online";
+  static final String BaseURL = "https://jackpotmatka.live/";
   //Service
   // ignore: non_constant_identifier_names
   static final String termsconditionLink = "$BaseURL/terms";
@@ -380,7 +380,7 @@ const String strTPana =
     '[{ "Number":"777"},{ "Number":"444"},{ "Number":"111"},{ "Number":"888"},{ "Number":"555"},{ "Number":"222"},{ "Number":"999"},{ "Number":"666"},{ "Number":"333"},{ "Number":"000"}]';
 
 const String strGameRate =
-    '[{   "GameType":"SINGLE ANK * 10",   "GameRate":"95"  },{   "GameType":"JODI[BRACKET] * 10",   "GameRate":"950"},{   "GameType":"SINGLE PATTI * 10",   "GameRate":"1400"  },{   "GameType":"DOUBLE PATTI * 10",   "GameRate":"2800" },{   "GameType":"TRIPPLE PANA * 10",   "GameRate":"7000" },{   "GameType":"HALF SANGAM * 10",   "GameRate":"10000"  },{   "GameType":"FULL SANGAM * 10",   "GameRate":"100000"  }]';
+    '[{   "GameType":"SINGLE ANK * 10",   "GameRate":"100"  },{   "GameType":"JODI[BRACKET] * 10",   "GameRate":"1000"},{   "GameType":"SINGLE PATTI * 10",   "GameRate":"1600"  },{   "GameType":"DOUBLE PATTI * 10",   "GameRate":"3200" },{   "GameType":"TRIPPLE PANA * 10",   "GameRate":"7000" },{   "GameType":"HALF SANGAM * 10",   "GameRate":"12000"  },{   "GameType":"FULL SANGAM * 10",   "GameRate":"120000"  }]';
 
 const String k_clientid = "clientid";
 const String k_lstorganizationdata = "lstorganizationdata";
